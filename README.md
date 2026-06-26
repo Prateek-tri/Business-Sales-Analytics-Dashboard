@@ -21,3 +21,129 @@ Analyze profitability
 Track sales trends over time
 
 This project solves the problem by creating an interactive Power BI dashboard.
+
+## Objectives
+Analyze overall sales performance
+Monitor monthly sales trends
+Compare regional sales
+Identify top-selling products
+Analyze category-wise performance
+Measure business profitability
+Create interactive filters for better analysis
+
+Dataset
+
+The project uses a Superstore Sales Dataset containing transactional sales records.
+
+## Dataset includes
+Order Date
+Ship Date
+Customer
+Product
+Category
+Sub-Category
+Segment
+Region
+State
+Sales
+Quantity
+Discount
+Profit
+
+## Technologies Used
+SQL (MySQL)
+Power BI
+DAX
+Power Query
+Microsoft Excel
+
+## Project Workflow
+1. Data Collection
+Imported Superstore Sales Dataset.
+
+2. Data Cleaning using SQL
+Performed:
+Checked missing values
+Verified data types
+Removed duplicates
+Verified data quality
+Checked minimum and maximum sales
+Profit validation
+
+Example SQL operations:
+DESCRIBE Table
+COUNT()
+MIN()
+MAX()
+SUM()
+CASE WHEN
+NULL validation
+
+3. Data Modeling
+Created relationships between tables inside Power BI.
+Implemented:
+Date hierarchy
+Region analysis
+Product analysis
+Category analysis
+
+4. DAX Measures
+
+Created important KPIs including:
+
+Total Sales
+Total Profit
+Total Quantity
+Profit Margin %
+
+Additional measures can include:
+Average Order Value
+Sales Growth
+Year-over-Year Sales
+Month-over-Month Sales
+
+## Dashboard KPIs
+
+✔ Total Sales
+✔ Total Profit
+✔ Total Quantity Sold
+✔ Profit Margin %
+
+## Dashboard Visualizations
+The dashboard includes:
+
+KPI Cards
+Monthly Sales Trend
+Sales by Product
+Sales by Region
+Sales by Category
+Sales by State
+Profit by Region
+Matrix Summary
+Interactive Slicers
+
+## Dashboard Features
+Interactive filters:
+Year
+Region
+Category
+Segment
+Dynamic filtering across all visuals.
+
+## Key Insights
+Some business insights generated from the dashboard include:
+
+Monthly sales fluctuate significantly with peak performance in November.
+Technology category contributes the highest revenue.
+Top-selling products generate a major portion of total sales.
+Regional analysis identifies strong and weak performing markets.
+Profitability varies across categories and regions.
+
+## Business Impact
+The dashboard enables management to:
+Monitor overall business performance
+Identify profitable products
+Improve inventory planning
+Track sales trends
+Support strategic decision-making
+Improve regional sales performance
