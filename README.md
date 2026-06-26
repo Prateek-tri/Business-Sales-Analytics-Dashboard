@@ -24,38 +24,38 @@ This project solves the problem by creating an interactive Power BI dashboard.
 
 ## Objectives
 Analyze overall sales performance
-Monitor monthly sales trends
-Compare regional sales
-Identify top-selling products
-Analyze category-wise performance
-Measure business profitability
-Create interactive filters for better analysis
+1. Monitor monthly sales trends
+2. Compare regional sales
+3. Identify top-selling products
+4. Analyze category-wise performance
+5. Measure business profitability
+6. Create interactive filters for better analysis
 
-Dataset
+# Dataset
 
 The project uses a Superstore Sales Dataset containing transactional sales records.
 
 ## Dataset includes
-Order Date
-Ship Date
-Customer
-Product
-Category
-Sub-Category
-Segment
-Region
-State
-Sales
-Quantity
-Discount
-Profit
+1. Order Date
+2. Ship Date
+3. Customer
+4. Product
+5. Category
+6. Sub-Category
+7. Segment
+8. Region
+9. State
+10. Sales
+11. Quantity
+12. Discount
+13. Profit
 
 ## Technologies Used
-SQL (MySQL)
-Power BI
-DAX
-Power Query
-Microsoft Excel
+- SQL (MySQL)
+- Power BI
+- DAX
+- Power Query
+- Microsoft Excel
 
 ## Project Workflow
 1. Data Collection
@@ -63,44 +63,43 @@ Imported Superstore Sales Dataset.
 
 2. Data Cleaning using SQL
 Performed:
-Checked missing values
-Verified data types
-Removed duplicates
-Verified data quality
-Checked minimum and maximum sales
-Profit validation
+- Checked missing values
+- Verified data types
+- Removed duplicates
+- Verified data quality
+- Checked minimum and maximum sales
+- Profit validation
 
 Example SQL operations:
-DESCRIBE Table
-COUNT()
-MIN()
-MAX()
-SUM()
-CASE WHEN
-NULL validation
+- DESCRIBE Table
+- COUNT()
+- MIN()
+- MAX()
+- SUM()
+- CASE WHEN
+- NULL validation
 
 3. Data Modeling
 Created relationships between tables inside Power BI.
-Implemented:
-Date hierarchy
-Region analysis
-Product analysis
-Category analysis
+- Date hierarchy
+- Region analysis
+- Product analysis
+- Category analysis
 
 4. DAX Measures
 
 Created important KPIs including:
 
-Total Sales
-Total Profit
-Total Quantity
-Profit Margin %
+- Total Sales
+- Total Profit
+- Total Quantity
+- Profit Margin %
 
 Additional measures can include:
-Average Order Value
-Sales Growth
-Year-over-Year Sales
-Month-over-Month Sales
+- Average Order Value
+- Sales Growth
+- Year-over-Year Sales
+- Month-over-Month Sales
 
 ## Dashboard KPIs
 
@@ -112,38 +111,38 @@ Month-over-Month Sales
 ## Dashboard Visualizations
 The dashboard includes:
 
-KPI Cards
-Monthly Sales Trend
-Sales by Product
-Sales by Region
-Sales by Category
-Sales by State
-Profit by Region
-Matrix Summary
-Interactive Slicers
+- KPI Cards
+- Monthly Sales Trend
+- Sales by Product
+- Sales by Region
+- Sales by Category
+- Sales by State
+- Profit by Region
+- Matrix Summary
+- Interactive Slicers
 
 ## Dashboard Features
 Interactive filters:
-Year
-Region
-Category
-Segment
-Dynamic filtering across all visuals.
+- Year
+- Region
+- Category
+- Segment
+- Dynamic filtering across all visuals.
 
 ## Key Insights
 Some business insights generated from the dashboard include:
 
-Monthly sales fluctuate significantly with peak performance in November.
-Technology category contributes the highest revenue.
-Top-selling products generate a major portion of total sales.
-Regional analysis identifies strong and weak performing markets.
-Profitability varies across categories and regions.
+- Monthly sales fluctuate significantly with peak performance in November.
+- Technology category contributes the highest revenue.
+- Top-selling products generate a major portion of total sales.
+- Regional analysis identifies strong and weak performing markets.
+- Profitability varies across categories and regions.
 
 ## Business Impact
 The dashboard enables management to:
-Monitor overall business performance
-Identify profitable products
-Improve inventory planning
-Track sales trends
-Support strategic decision-making
-Improve regional sales performance
+- Monitor overall business performance
+- Identify profitable products
+- Improve inventory planning
+- Track sales trends
+- Support strategic decision-making
+- Improve regional sales performance
